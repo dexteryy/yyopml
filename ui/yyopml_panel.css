@@ -1,0 +1,172 @@
+/*
+ *	google style for YyOPML
+ *  Created by Dexter.Yy(http://www.limboy.com) on 2008-05-25.
+ */
+*{margin:0;padding:0;}
+body{
+	background:#E0E0E0;
+	color:#000;
+	font-family:'Lucida Grande',Verdana,Arial,Sans-Serif;
+	font-size:12px;
+	padding:0 0px;
+	width:100%;
+	overflow-x:hidden;
+}
+ul{list-style:none;}
+a{
+	color:#00ccff;
+}
+h1{
+	color:#666;
+	background:#ccc;
+	border-bottom:1px solid #999;
+	font-size:24px;
+	padding:10px 0px;
+	margin:0 0 15px 0;
+	width:100%;
+	text-align:center;
+}
+#theme{
+	width:210px;
+	padding:5px 10px;
+	background:#333;
+	border-bottom:1px solid #000;
+	border-right:1px solid #000;
+	font-size:12px;
+	line-height:18px;
+	display:inline;
+	position:relative;left:10px;top:-5px;
+}
+#theme strong{
+	color:#eee;
+}
+#theme ul{
+	display:inline;
+}
+#theme ul li{display:inline;}
+#theme ul li a{
+	padding:0 5px;
+	color:#00ccff;
+}
+#theme ul li a.on{
+	text-decoration: none;
+	color:#fff;
+}
+
+#allfeeds{
+	margin:0 15px;
+	width:100%;
+}
+.sort{
+	border:1px solid #ccc;
+	border-top:0;
+	border-bottom:2px solid #ccc;
+	background:#E4E4E4;
+	float:left;
+	width:23%;
+	height:280px;
+	overflow:hidden;
+	margin:8px;
+	position:relative;
+}
+
+.sort h2{
+	padding:0;margin:0;
+	font-size:14px;
+	border-bottom:1px solid #999;
+	background:#bbb url(img/folder.gif) no-repeat 8px 10px;
+	color:#000;
+	display:block;
+	line-height:34px;height:34px;
+	width:100%;
+	position:absolute;
+	top:0;
+	z-index:10;
+}
+.sort h2 strong{
+	padding:0 0 0 30px;
+}
+.sort h2 span{
+	position:absolute;
+	right:10px;top:2px;
+	color:#666;
+	font-size:12px;
+}
+
+.sort .list{
+	padding:32px 0 0 0;
+	margin:0;
+	background:#E4E4E4;
+	width:100%;
+	position:absolute;
+	top:0;
+}
+
+.feed{
+	height:24px;
+	overflow:hidden;
+	border-left:1px solid #fff;
+	border-right:1px solid #B1B1B1;
+	border-bottom:1px solid #B1B1B1;
+	border-top:1px solid #fff;
+}
+.chosen{
+	
+}
+.chosen a.feed_name{
+	color:#000;
+}
+.chosen a.feed_name:hover{
+
+}
+a.feed_name{
+	color:#333;
+	font-weight:500;
+	line-height:24px;
+	height:24px;
+	width:500px;
+	padding:0 10px 0 30px;
+	text-decoration: none;
+	display:block;
+	margin:0;
+	background:url(img/feedicon.gif) no-repeat 10px 3px;
+}
+a.feed_name:hover{
+	background-color:#C3D9FF;
+	color:#0000CC;
+	
+}
+
+.feed_attr{
+	background:#333;
+	margin:0px;
+	padding:10px;	
+}
+.feed_attr li{
+	color:#eee;
+	line-height:20px;
+	height:20px;
+	width:1000px;
+	overflow:hidden;
+}
+
+
+.scrollbar{
+	width:5px;
+	background:#bbb;
+	border-bottom:1px solid #ccc;
+	border-right:1px solid #ccc;
+	height:100px;
+	position:absolute;
+	right:2px;
+	cursor:move;
+}
+
+
+
+#foot{
+	padding:20px 0;
+	text-align:center;
+	clear:both;
+}
+#foot a{color:#0066cc;}

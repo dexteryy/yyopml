@@ -1,0 +1,159 @@
+/*
+ *	OS panel style for YyOPML
+ *  Created by Dexter.Yy(http://www.limboy.com) on 2008-05-25.
+ */
+*{margin:0;padding:0;}
+body{
+	background:#fff;
+	color:#000;
+	font-family:'Lucida Grande',Verdana,Arial,Sans-Serif;
+	font-size:12px;
+	padding:0 0px;
+	width:100%;
+	overflow-x:hidden;
+}
+ul{list-style:none;}
+a{
+	color:#0000CC;
+}
+h1{
+	color:#0066ff;
+	font-size:24px;
+	padding:15px 0px;
+	text-align:center;
+}
+
+#theme{
+	width:210px;
+	padding:5px 10px;
+	background:#333;
+	border-bottom:1px solid #000;
+	border-right:1px solid #000;
+	font-size:12px;
+	line-height:18px;
+	display:inline;
+	position:relative;left:10px;top:-5px;
+}
+#theme strong{
+	color:#eee;
+}
+#theme ul{
+	display:inline;
+}
+#theme ul li{display:inline;}
+#theme ul li a{
+	padding:0 5px;
+	color:#00ccff;
+}
+#theme ul li a.on{
+	text-decoration: none;
+	color:#fff;
+}
+
+#allfeeds{
+	margin:0 15px;
+	width:100%;
+}
+.sort{
+	border:4px solid #E1ECFE;
+	background:#fff;
+	float:left;
+	width:23%;
+	height:280px;
+	overflow:hidden;
+	margin:5px;
+	position:relative;
+}
+
+.sort h2{
+	padding:0;margin:0;
+	font-size:16px;
+	background:#E1ECFE url(img/folder.gif) no-repeat 8px 10px;
+	color:#0000CC;
+	display:block;
+	line-height:34px;height:34px;
+	width:100%;
+	position:absolute;
+	top:0;
+	z-index:10;
+}
+.sort h2 strong{
+	padding:0 0 0 30px;
+}
+.sort h2 span{
+	position:absolute;
+	right:10px;top:0px;
+	color:#000;
+	font-size:12px;
+}
+
+.sort .list{
+	padding:32px 0 0 0;
+	margin:0;
+	background:#fff;
+	width:100%;
+	position:absolute;
+	top:0;
+}
+
+.feed{
+	height:24px;
+	overflow:hidden;
+	border-bottom:1px solid #AAAAAA;
+}
+.chosen{
+	background-color:#B5EDBC;
+}
+.chosen a.feed_name{
+	color:#1010C8;
+}
+.chosen a.feed_name:hover{
+	background-color:#B5EDBC;color:#1010C8;
+}
+a.feed_name{
+	color:#000;
+	font-weight:600;
+	line-height:24px;
+	height:24px;
+	width:500px;
+	padding:0 10px 0 30px;
+	text-decoration: none;
+	display:block;
+	margin:0;
+	background:url(img/feedicon.gif) no-repeat 10px 3px;
+}
+a.feed_name:hover{
+	background-color:#C3D9FF;
+	color:#0000CC;
+	
+}
+
+.feed_attr{
+	background:#eee;
+	margin:0px;
+	padding:10px;	
+}
+.feed_attr li{
+	line-height:20px;
+	height:20px;
+	width:1000px;
+	overflow:hidden;
+}
+
+
+.scrollbar{
+	width:5px;
+	background:#6699FF;
+	height:100px;
+	position:absolute;
+	right:2px;
+	cursor:move;
+}
+
+
+
+#foot{
+	padding:20px 0;
+	text-align:center;
+	clear:both;
+}
